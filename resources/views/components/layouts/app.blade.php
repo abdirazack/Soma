@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" data-theme="{{ session('theme') }}">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" >
 
 <head>
     <meta charset="utf-8">
@@ -12,13 +12,13 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="font-sans  antialiased   bg-[url('../../../public/images/bg_gradient_pfosr9.jpeg')] bg-contain bg-top bg-no-repeat opacity-85 bg-stone-900" style="cursor: auto;">
-    <svg class="pointer-events-none fixed isolate z-50 opacity-70 mix-blend-soft-light" width="100%" height="100%">
+<body class="font-sans  antialiased   bg-bkg text-textColor" style="cursor: auto;">
+    {{-- <svg class="pointer-events-none fixed isolate z-50 opacity-70 mix-blend-soft-light" width="100%" height="100%">
         <filter id="noise">
             <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="4" stitchTiles="stitch"></feTurbulence>
         </filter>
         <rect width="100%" height="100%" filter="url(#noise)"></rect>
-    </svg>
+    </svg> --}}
     <div class="min-h-screen ">
 
 

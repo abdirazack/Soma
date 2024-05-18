@@ -9,20 +9,9 @@
 
 @layer base {
     :root {
-        --color-dark: 119 109 138;
-        --color-light: 243 230 227;
-        --color-content: 219 227 229;
-        --color-accent1: 211 192 154;
-        --color-accent2: 179 143 73;
-    }
-
-    @media (prefers-color-scheme: dark) {
-        :root {
-            --color-light: 119 109 138;
-            --color-dark: 243 230 227;
-            --color-content: 219 227 229;
-            --color-accent1: 211 192 154;
-            --color-accent2: 179 143 73;
-        }
+       --color-bg : 251 248 245;
+       --color-content : 238 229 218;
+       --color-content-bg :248 240 230;
+       --color-text : 107 79 71;
     }
 }
